@@ -100,16 +100,7 @@ ul {
 .main-page-form-button {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -123,16 +114,7 @@ ul {
 .main-page-form-button:hover {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
     font-weight: 500;
     font-size: 16px;
@@ -145,16 +127,7 @@ ul {
 .main-page-form-button:focus {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
     font-weight: 500;
     font-size: 16px;
@@ -201,7 +174,7 @@ ul {
 .team-list .team-list-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.12;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
