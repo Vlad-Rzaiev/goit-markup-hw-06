@@ -12,7 +12,7 @@ ul {
     list-style-type: none;
 }
 
-.part-web-main-link {
+.header-logo-part-web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -22,7 +22,7 @@ ul {
     color: #4d5ae5;
 }
 
-.part-studio-main-link {
+.header-logo-part-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -239,5 +239,25 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.footer-logo-part-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logo-part-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
 }
