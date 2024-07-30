@@ -24,16 +24,16 @@
 <body>
     <header>
         <nav>
-            <a href="./index.html" class="part-studio-main-link"><span class="part-web-main-link">Web</span>Studio</a>
+            <a href="./index.html" class="part-web-main-link">Web<span class="part-studio-main-link">Studio</span></a>
             <ul class="main-nav">
-                <li><a href="#studio" class="link">Studio</a></li>
-                <li><a href="#portfolio" class="link">Portfolio</a></li>
-                <li><a href="#contacts" class="link">Contacts</a></li>
+                <li><a href="./index.html" class="link">Studio</a></li>
+                <li><a href="" class="link">Portfolio</a></li>
+                <li><a href="" class="link">Contacts</a></li>
             </ul>
         </nav>
 
-        <address>
-            <ul class="nav-contacts">
+        <address class="nav-contacts">
+            <ul>
                 <li>
                     <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                 </li>
@@ -45,11 +45,13 @@
     </header>
 
     <main>
+        <!--Section 1-->
         <section class="main-page-form">
             <h1 class="main-page-form-title">Effective Solutions<br> for Your Business</h1>
             <button type="button" class="main-page-form-button">Order Service</button>
         </section>
 
+        <!--Section 2-->
         <section class="features">
             <h2 class="section-title">Features list</h2>
             <ul class="features-list">
@@ -76,25 +78,26 @@
             </ul>
         </section>
 
-        <section class="team-descr" id="studio">
+        <!--Section 3-->
+        <section class="team-descr">
             <h2 class="section-title">Our Team</h2>
             <ul class="team-list">
-                <li>
+                <li class="team-list-point">
                     <img src="./images/img-mark-guerrero1.jpg" alt="Mark-Guerrero-photo" width="264" height="260">
                     <h3 class="team-list-title">Mark Guerrero</h3>
                     <p class="team-list-text">Product Designer</p>
                 </li>
-                <li>
+                <li class="team-list-point">
                     <img src="./images/img-tom-ford1.jpg" alt="Tom-Ford-photo" width="264" height="260">
                     <h3 class="team-list-title">Tom Ford</h3>
                     <p class="team-list-text">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="team-list-point">
                     <img src="./images/img-camila-garcia1.jpg" alt="Camila-Garcia-photo" width="264" height="260">
                     <h3 class="team-list-title">Camila Garcia</h3>
                     <p class="team-list-text">Marketing</p>
                 </li>
-                <li>
+                <li class="team-list-point">
                     <img src="./images/img-daniel-wilson1.jpg" alt="Daniel-Wilson-photo" width="264" height="260">
                     <h3 class="team-list-title">Daniel Wilson</h3>
                     <p class="team-list-text">UI Designer</p>
@@ -102,7 +105,8 @@
             </ul>
         </section>
 
-        <section class="our-portfolio" id="portfolio">
+        <!--Section 4-->
+        <section class="our-portfolio">
             <h2 class="section-title">Our Portfolio</h2>
             <ul class="portfolio-list">
                 <li>
@@ -139,7 +143,7 @@
         </section>
     </main>
 
-    <footer id="contacts">
+    <footer class="footer">
         <a href="./index.html" class="part-studio-main-link"><span class="part-web-main-link">Web</span>Studio</a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &#38; growth solutions.</p>
     </footer>
