@@ -56,6 +56,10 @@ ul {
     color: #404bbf;
 }
 
+.nav-contacts {
+    font-style: normal;
+}
+
 .nav-contacts .link {
     font-weight: 400;
     font-size: 16px;
@@ -184,10 +188,11 @@ ul {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list-point {
@@ -197,7 +202,7 @@ ul {
 .team-list .team-list-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.12;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -216,7 +221,7 @@ ul {
 .portfolio-list .portfolio-list-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
