@@ -48,6 +48,7 @@ img {
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-nav {
@@ -86,8 +87,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: inline-block;
     padding: 24px 0;
-
 }
 
 .main-nav-link:hover,
@@ -145,12 +146,20 @@ img {
 
 .main-form-btn:hover,
 .main-form-btn:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
 }
 
 .visually-hidden {
-    visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-list {
