@@ -118,6 +118,10 @@ img {
     color: #404bbf;
 }
 
+.current-page {
+    color: #404bbf;
+}
+
 .current-page::after {
     position: absolute;
     bottom: -1px;
