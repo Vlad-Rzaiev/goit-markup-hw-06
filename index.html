@@ -55,6 +55,12 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="phone-menu-btn">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-phone-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -131,10 +137,13 @@
           <ul class="team-list">
             <li class="team-list-item">
               <img
-                src="./images/img-mark-guerrero1.jpg"
+                srcset="
+                  ./images/img-mark-guerrero.jpg    1x,
+                  ./images/img-mark-guerrero@2x.jpg 2x
+                "
+                src="./images/img-mark-guerrero.jpg"
                 alt="Mark-Guerrero-photo"
                 width="264"
-                height="260"
               />
               <div class="team-list-item-descr">
                 <h3 class="team-list-title">Mark Guerrero</h3>
@@ -185,7 +194,11 @@
             </li>
             <li class="team-list-item">
               <img
-                src="./images/img-tom-ford1.jpg"
+                srcset="
+                  ./images/img-tom-ford.jpg    1x,
+                  ./images/img-tom-ford@2x.jpg 2x
+                "
+                src="./images/img-tom-ford.jpg"
                 alt="Tom-Ford-photo"
                 width="264"
                 height="260"
@@ -239,7 +252,11 @@
             </li>
             <li class="team-list-item">
               <img
-                src="./images/img-camila-garcia1.jpg"
+                srcset="
+                  ./images/img-camila-garcia.jpg    1x,
+                  ./images/img-camila-garcia@2x.jpg 2x
+                "
+                src="./images/img-camila-garcia.jpg"
                 alt="Camila-Garcia-photo"
                 width="264"
                 height="260"
@@ -293,7 +310,11 @@
             </li>
             <li class="team-list-item">
               <img
-                src="./images/img-daniel-wilson1.jpg"
+                srcset="
+                  ./images/img-daniel-wilson.jpg    1x,
+                  ./images/img-daniel-wilson@2x.jpg 2x
+                "
+                src="./images/img-daniel-wilson.jpg"
                 alt="Daniel-Wilson-photo"
                 width="264"
                 height="260"
@@ -356,6 +377,10 @@
             <li class="portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
+                  srcset="
+                    ./images/banking-app.jpg    1x,
+                    ./images/banking-app@2x.jpg 2x
+                  "
                   src="./images/banking-app.jpg"
                   alt="bank application menu screen"
                   width="360"
@@ -375,6 +400,10 @@
             <li class="portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
+                  srcset="
+                    ./images/cashless-payment.jpg    1x,
+                    ./images/cashless-payment@2x.jpg 2x
+                  "
                   src="./images/cashless-payment.jpg"
                   alt="attached phone to the terminal"
                   width="360"
@@ -394,6 +423,10 @@
             <li class="portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
+                  srcset="
+                    ./images/meditation-app.jpg    1x,
+                    ./images/meditation-app@2x.jpg 2x
+                  "
                   src="./images/meditation-app.jpg"
                   alt="laptop and phone with the app open"
                   width="360"
@@ -413,6 +446,10 @@
             <li class="portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
+                  srcset="
+                    ./images/taxi-service.jpg    1x,
+                    ./images/taxi-service@2x.jpg 2x
+                  "
                   src="./images/taxi-service.jpg"
                   alt="taxi driver foto"
                   width="360"
@@ -432,6 +469,10 @@
             <li class="portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
+                  srcset="
+                    ./images/screen-illustrations.jpg    1x,
+                    ./images/screen-illustrations@2x.jpg 2x
+                  "
                   src="./images/screen-illustrations.jpg"
                   alt="view of the illustration in the phone"
                   width="360"
@@ -451,6 +492,10 @@
             <li class="portfolio-list-item">
               <div class="portfolio-overlay">
                 <img
+                  srcset="
+                    ./images/online-courses.jpg    1x,
+                    ./images/online-courses@2x.jpg 2x
+                  "
                   src="./images/online-courses.jpg"
                   alt="girl used phone"
                   width="360"
@@ -483,7 +528,8 @@
             digital marketing &#38; growth solutions.
           </p>
         </div>
-        <div>
+
+        <div class="sm-container">
           <p class="footer-sm-text">Social media</p>
           <ul class="footer-sm-list">
             <li class="footer-sl-item">
@@ -650,6 +696,88 @@
           </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!--MODAL-MENU-PHONE-->
+    <div class="phone-overlay">
+      <button type="button" class="close-phone-icon">
+        <svg width="8" height="8" class="close-icon-fill">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="phone-open-menu">
+        <nav>
+          <ul class="main-nav">
+            <li>
+              <a href="./index.html" class="main-nav-link current-page"
+                >Studio</a
+              >
+            </li>
+            <li><a href="" class="main-nav-link">Portfolio</a></li>
+            <li><a href="" class="main-nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <div class="bottom-cont">
+          <address>
+            <ul class="address">
+              <li>
+                <a href="mailto:info@devstudio.com" class="address-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="address-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="phone-menu-sm-list">
+            <li class="footer-sl-item">
+              <a href="" target="_blank" class="footer-sm-list-item">
+                <svg width="24" height="24" class="footer-sm-links">
+                  <use
+                    href="./images/icons.svg#icon-instagram"
+                    class="social-links"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-sl-item">
+              <a href="" target="_blank" class="footer-sm-list-item">
+                <svg width="24" height="24" class="footer-sm-links">
+                  <use
+                    href="./images/icons.svg#icon-twitter"
+                    class="social-links"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-sl-item">
+              <a href="" target="_blank" class="footer-sm-list-item">
+                <svg width="24" height="24" class="footer-sm-links">
+                  <use
+                    href="./images/icons.svg#icon-facebook"
+                    class="social-links"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-sl-item">
+              <a href="" target="_blank" class="footer-sm-list-item">
+                <svg width="24" height="24" class="footer-sm-links">
+                  <use
+                    href="./images/icons.svg#icon-linkedin"
+                    class="social-links"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
