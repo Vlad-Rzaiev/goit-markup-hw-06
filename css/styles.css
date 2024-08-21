@@ -1054,6 +1054,31 @@ textarea:focus {
   .footer-form-container-text {
     text-align: start;
   }
+
+  /*MODAL*/
+
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+  }
+
+  .checkbox-input-text {
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+  }
+
+  .new-checkbox {
+    position: relative;
+    top: -0px;
+    margin-right: 8px;
+  }
+
+  .checkbox-input-text-space {
+    margin-right: 4px;
+  }
+
+  /*MODAL*/
 }
 /*TABLET*/
 
@@ -1245,6 +1270,31 @@ textarea:focus {
   .footer-form-container-text {
     text-align: start;
   }
+
+  /*MODAL*/
+
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+  }
+
+  .checkbox-input-text {
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+  }
+
+  .new-checkbox {
+    position: relative;
+    top: -0px;
+    margin-right: 8px;
+  }
+
+  .checkbox-input-text-space {
+    margin-right: 4px;
+  }
+
+  /*MODAL*/
 }
 /*DESKTOP*/
 
