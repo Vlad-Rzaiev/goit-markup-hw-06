@@ -57,3 +57,26 @@ Hidden: .visually-hidden { position: absolute; width: 1px; height: 1px; margin:
 
 white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow:
 hidden; }
+
+# Матеріали заняття за 16.09
+
+Посилання на репозиторій:
+https://github.com/Olexiy-repin/html-css-112/tree/module-04-lesson-01
+Посилання на icomoon:
+https://icomoon.io
+
+# Матеріали заняття за 18.09
+
+Посилання на репозиторій:
+https://github.com/Olexiy-repin/html-css-112/tree/module-04-lesson-02
+Посилання на живу сторінку:
+https://olexiy-repin.github.io/html-css-112/
+Сервіс для створення власної функції розподілу часу:
+https://cubic-bezier.com/#.25,.1,.25,1
+Сервіс з кодами різних символів:
+https://www.toptal.com/designers/htmlarrows/
+
+# Матеріали заняття за 23.09
+
+Посилання на репозиторій:
+https://github.com/Olexiy-repin/html-css-112/tree/module-05-lesson-01
