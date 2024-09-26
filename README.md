@@ -80,3 +80,12 @@ https://www.toptal.com/designers/htmlarrows/
 
 Посилання на репозиторій:
 https://github.com/Olexiy-repin/html-css-112/tree/module-05-lesson-01
+
+# Матеріали заняття за 25.09
+
+Посилання на репозиторій:
+https://github.com/Olexiy-repin/html-css-112/tree/module-05-lesson-02
+Посилання на живу сторінку:
+https://olexiy-repin.github.io/html-css-112/
+Посилання на сервіс по розмініфікації спрайта:
+https://unminify.com/
