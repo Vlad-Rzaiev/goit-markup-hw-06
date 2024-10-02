@@ -94,3 +94,14 @@ https://unminify.com/
 
 Посилання на репозиторій:
 https://github.com/Olexiy-repin/html-css-112/tree/module-06-lesson-01
+
+# Матеріали заняття за 02.10
+
+Посилання на репозиторій лекції:
+https://github.com/Olexiy-repin/html-css-112/tree/module-06-lesson-01
+Посилання на репозиторій з Simply Chocolate:
+https://github.com/Olexiy-repin/html-css-112/tree/module-06-lesson-02
+Посилання на сервіс для визначення параметрів вашого екрану:
+https://www.mydevice.io/
+Посилання на макет барбершопа:
+https://www.figma.com/design/8aZRknZSQvivnmTK4XAsIN/Barbershop_v1-ukr-(Copy)-(Copy)?m=auto&t=hrWUwklbm6mGVcQH-1
